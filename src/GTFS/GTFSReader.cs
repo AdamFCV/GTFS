@@ -1093,7 +1093,7 @@ namespace GTFS
                 case "stop_timezone":
                     stop.Timezone = this.ParseFieldString(header.Name, fieldName, value);
                     break;
-                case " wheelchair_boarding ":
+                case "wheelchair_boarding":
                     stop.WheelchairBoarding = this.ParseFieldString(header.Name, fieldName, value);
                     break;
             }

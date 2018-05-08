@@ -104,7 +104,7 @@ namespace GTFS.Entities
         /// <summary>
         /// Gets or sets whether wheelchair boardings are possible from the specified stop or station. The field can have the following values:
         /// </summary>
-        [FieldName(" wheelchair_boarding ")]
+        [FieldName("wheelchair_boarding")]
         public string WheelchairBoarding { get; set; }
 
         /// <summary>
